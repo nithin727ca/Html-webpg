@@ -55,14 +55,14 @@ body {
   height: 24px;
 }
 
-/* 🔔 Notification icon */
+
 .third img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
 }
 
-/* 🎬 Movie Section */
+
 .fourth {
   padding: 30px;
 }
@@ -88,6 +88,7 @@ body {
   width: 220px;
   text-align: center;
   transition: transform 0.3s;
+  box-shadow: 02px 4px rgba(32, 16, 16, 2);
 }
 
 .movie-card:hover {
@@ -122,22 +123,22 @@ body {
   background-color: #b0060f;
 }
 
-/* 🎟️ Book Tickets Section */
+
 .sixth {
   background-color: red;
-  color: white;
+  color:white;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  padding: 5px 0;       /* reduces height */
-  width: 40%;            /* makes it smaller */
-  margin: 30px auto 100px; /* centers horizontally and adds bottom space before nav */
+  padding: 5px 0;      
+  width: 40%;          
+  margin: 30px auto 100px; 
   border-radius: 8px;  
-  cursor:pointer;   /* optional – gives smooth corners */
+  cursor:pointer;  
 }
 
 
-/* 🏠 Bottom Navigation */
+
 nav {
   position: fixed;
   bottom: 0;
@@ -160,7 +161,7 @@ nav li img {
   height: 35px;
 }
 
-/* 📱 Responsive for mobile */
+
 @media (max-width: 768px) {
   .first {
     flex-direction: column;
